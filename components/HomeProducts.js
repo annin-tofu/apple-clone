@@ -11,11 +11,13 @@ function HomeProducts() {
         <h1 className="text-4xl font-normal text-center mt-8">
           Blast From The Past.
         </h1>
-        <h1 className="mt-3 text-gray-500 text-center hover:text-white cursor-pointer">
+        <h1 className="mt-3 text-gray-500 text-center">
           From ¥1,000,000 before trade-in <br></br>
           No Cost EMI for 600 months.
         </h1>
         <img
+          //mx-auto   is used here to put the image right in the middle. otherwise the image will be squeezed to the very left
+          className="mx-auto"
           // loading="lazy" => this means the website renders even if the img is not loading !!IMPORTANT AND MUST FOR FAST AND RESPONSIVE WEBSOTE CREATION!!!
           loading="lazy"
           //   used Cloudinary for PNG creation

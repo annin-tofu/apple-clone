@@ -14,18 +14,18 @@ function Nav() {
       {/* cursor-pointer : will add hand shaped cursor when hovered over the logo */}
       {/* Apple logo is pushed too much to the left => add ml (margin left) */}
       {/* text-sm: text size SMALL */}
-      <AppleIcon className="nav-margin h-7 mt-3 text-gray-300 cursor-pointer" />
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">Mac</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">uPad</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">uPhone</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">Watch</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">TV</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">Music</h1>
-      <h1 className=" mt-3 text-gray-300 cursor-pointer">Support</h1>
-      <SearchIcon className="h-7 mt-3 text-gray-300 cursor-pointer" />
+      <AppleIcon className="nav-margin h-7 mt-3 text-gray-200 cursor-pointer" />
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">Mac</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">uPad</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">uPhone</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">Watch</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">TV</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">Music</h1>
+      <h1 className=" mt-3 text-gray-200 cursor-pointer">Support</h1>
+      <SearchIcon className="h-7 mt-3 text-gray-200 cursor-pointer" />
       <ShoppingBasketIcon
         className="h-7
-       mt-3 text-gray-300 cursor-pointer"
+       mt-3 text-gray-200 cursor-pointer"
       />
     </div>
   );
