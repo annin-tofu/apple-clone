@@ -8,11 +8,13 @@ function Nav() {
     //   Header nav bar
 
     //flex-row => places items in ONE ROW
-    <div className="nav-color text-white h-14 flex flex-row space-x-14">
+    <div className="nav-color text-white h-14 flex flex-row space-x-16 mx-auto text-base">
       {/* mt-3 : margin-top */}
       {/* text-gray-300 : changed Apple Logo color */}
       {/* cursor-pointer : will add hand shaped cursor when hovered over the logo */}
-      <AppleIcon className="h-7 mt-3 text-gray-300 cursor-pointer" />
+      {/* Apple logo is pushed too much to the left => add ml (margin left) */}
+      {/* text-sm: text size SMALL */}
+      <AppleIcon className="nav-margin h-7 mt-3 text-gray-300 cursor-pointer" />
       <h1 className=" mt-3 text-gray-300 cursor-pointer">Mac</h1>
       <h1 className=" mt-3 text-gray-300 cursor-pointer">uPad</h1>
       <h1 className=" mt-3 text-gray-300 cursor-pointer">uPhone</h1>
