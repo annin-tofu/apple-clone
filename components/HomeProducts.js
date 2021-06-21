@@ -67,6 +67,7 @@ function HomeProducts(props) {
           src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624135277/Screen_Shot_2021-06-20_at_5.40.56_qbsotx.png"
         ></img>
       </div>
+
       {/* day 2___ for second product under uphone 12 div. it is a basically a same as uphone19. but with black background and white-text*/}
       <div className="bg-black text-white" data-aos="zoom-in-down">
         {/* double <br></br> to create top margin  */}
@@ -82,13 +83,131 @@ function HomeProducts(props) {
           From ONLY ¥2,480,000 before trade-in <br></br>
           No Cost EMI for 120 months.
         </h1>
-        <img
-          //   justify-center can replace mx-auto below
-          className="mx-auto"
-          loading="lazy"
-          className="uPhone-19-max-image"
-          src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624285479/Screen_Shot_2021-06-21_at_23.24.29_temfgi.png"
-        ></img>
+        <div className="mt-5 text-xl text-center">
+          <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+            Learn More
+          </span>
+          <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+            Buy
+          </span>
+          <img
+            //   justify-center can replace mx-auto below
+            className="mx-auto"
+            loading="lazy"
+            className="uPhone-19-max-image"
+            src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624285479/Screen_Shot_2021-06-21_at_23.24.29_temfgi.png"
+          ></img>
+        </div>
+        <br className="grey-background"></br>
+        <br className="grey-background"></br>
+      </div>
+
+      {/* uMac and uPad Pro div*/}
+      <div className="flex flex-row items-stretch" data-aos="zoom-in-down">
+        {/* uMac  */}
+        <div className="grey-background">
+          {/* double <br></br> to create top margin  */}
+          <br></br>
+          <br></br>
+          <h1 className="text-4xl font-semibold text-center mt-8">uMac</h1>
+          <h1 className="text-2xl font-normal text-center mt-6">Say what?</h1>
+          <div className="mt-5 text-xl text-center">
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Learn More
+            </span>
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Buy
+            </span>
+            <img
+              //   justify-center can replace mx-auto below
+              className="mx-auto"
+              loading="lazy"
+              className="uMac-image"
+              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624297309/Screen_Shot_2021-06-22_at_2.41.42_kcpcuj.png"
+            ></img>
+          </div>
+        </div>
+
+        {/* uPad Pro */}
+        <div className="bg-black text-white">
+          {/* double <br></br> to create top margin  */}
+          <br></br>
+          <br></br>
+          <h1 className="text-4xl font-semibold text-center mt-8">uPad Pro</h1>
+          <h1 className="text-2xl font-normal text-center mt-6">
+            Turbocharged with the U1 Chip.
+          </h1>
+          <div className="mt-5 text-xl text-center">
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Learn More
+            </span>
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Buy
+            </span>
+            <img
+              //   justify-center can replace mx-auto below
+              className="mx-auto"
+              loading="lazy"
+              className="uPad-Pro-image"
+              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624297125/Screen_Shot_2021-06-22_at_2.38.34_ouxjmo.png"
+            ></img>
+          </div>
+        </div>
+      </div>
+
+      {/* Watch and Fitness div */}
+      <div className="flex flex-row items-stretch" data-aos="fade-up">
+        {/* Watch */}
+        <div className="bg-black text-white">
+          {/* double <br></br> to create top margin  */}
+          <br></br>
+          <br></br>
+          <h1 className="text-4xl font-semibold text-center mt-8">Watch</h1>
+          <h1 className="text-2xl font-normal text-center mt-6">
+            I know you want it.
+          </h1>
+          <div className="mt-5 text-xl text-center">
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Learn More
+            </span>
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Buy
+            </span>
+            <img
+              //   justify-center can replace mx-auto below
+              className="mx-auto"
+              loading="lazy"
+              className="Watch-image"
+              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624300011/Screen_Shot_2021-06-22_at_3.26.24_p5suaa.png"
+            ></img>
+          </div>
+        </div>
+
+        {/* Fitness */}
+        <div className="grey-background ">
+          {/* double <br></br> to create top margin  */}
+          <br></br>
+          <br></br>
+          <h1 className="text-4xl font-semibold text-center mt-8">Fitness</h1>
+          <h1 className="text-2xl font-normal text-center mt-6">
+            Let's work out!
+          </h1>
+          <div className="mt-5 text-xl text-center">
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Learn More
+            </span>
+            <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
+              Try it freely
+            </span>
+            <img
+              //   justify-center can replace mx-auto below
+              className="mx-auto"
+              loading="lazy"
+              className="Fitness-image"
+              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624300010/Screen_Shot_2021-06-22_at_3.26.12_ipt8f0.png"
+            ></img>
+          </div>
+        </div>
       </div>
     </div>
   );

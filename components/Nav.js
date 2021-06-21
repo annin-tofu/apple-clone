@@ -8,7 +8,7 @@ function Nav() {
     //   Header nav bar
 
     //flex-row => places items in ONE ROW
-    <div className="nav-color text-white h-14 flex flex-row space-x-16 mx-auto text-base justify-center">
+    <div className="nav-color text-white h-14 flex flex-row space-x-16  text-base justify-center">
       {/* mt-3 : margin-top */}
       {/* text-gray-300 : changed Apple Logo color */}
       {/* cursor-pointer : will add hand shaped cursor when hovered over the logo */}
