@@ -21,7 +21,13 @@ function Nav() {
       <h1 className=" mt-3 text-gray-200 cursor-pointer">Watch</h1>
       <h1 className=" mt-3 text-gray-200 cursor-pointer">TV</h1>
       <h1 className=" mt-3 text-gray-200 cursor-pointer">Music</h1>
-      <h1 className=" mt-3 text-gray-200 cursor-pointer">Support</h1>
+      {/*NOTE: onClick={() => router.push('airtag')}    means if you click on it, it will take you to the airtag page*/}
+      <h1
+        onClick={() => router.push("airtag")}
+        className=" mt-3 text-gray-200 cursor-pointer"
+      >
+        AirTag
+      </h1>
       <SearchIcon className="h-7 mt-3 text-gray-200 cursor-pointer" />
       <ShoppingBasketIcon
         className="h-7

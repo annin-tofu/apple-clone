@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // // ..
 import { useEffect } from "react";
+// import { useRouter } from "next/router";
 
 // AOS.init();
 
@@ -29,6 +30,8 @@ import { useEffect } from "react";
 //   mirror: false, // whether elements should animate out while scrolling past them
 //   anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
 // });
+
+// const router = useRouter();
 
 function HomeProducts(props) {
   useEffect(() => {
@@ -69,7 +72,10 @@ function HomeProducts(props) {
       </div>
 
       {/* day 2___ for second product under uphone 12 div. it is a basically a same as uphone19. but with black background and white-text*/}
-      <div className="bg-black text-white" data-aos="zoom-in-down">
+      <div
+        className="bg-black text-white justify-center"
+        data-aos="zoom-in-down"
+      >
         {/* double <br></br> to create top margin  */}
         <br></br>
         <br></br>
@@ -77,7 +83,7 @@ function HomeProducts(props) {
           uPhone 19 Pro
         </h1>
         <h1 className="text-4xl font-normal text-center mt-8">
-          It's a leap year.
+          It's an intercalary year.
         </h1>
         <h1 className="mt-3 text-gray-500 text-center">
           From ONLY ¥2,480,000 before trade-in <br></br>
@@ -92,7 +98,7 @@ function HomeProducts(props) {
           </span>
           <img
             //   justify-center can replace mx-auto below
-            className="mx-auto"
+            className="justify-center"
             loading="lazy"
             className="uPhone-19-max-image"
             src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624285479/Screen_Shot_2021-06-21_at_23.24.29_temfgi.png"
@@ -155,7 +161,7 @@ function HomeProducts(props) {
         </div>
       </div>
 
-      {/* Watch and Fitness div */}
+      {/* Watch and AirTag div */}
       <div className="flex flex-row items-stretch" data-aos="fade-up">
         {/* Watch */}
         <div className="bg-black text-white">
@@ -183,28 +189,28 @@ function HomeProducts(props) {
           </div>
         </div>
 
-        {/* Fitness */}
-        <div className="grey-background ">
+        {/* AirTag */}
+        <div className="grey-background">
           {/* double <br></br> to create top margin  */}
           <br></br>
           <br></br>
-          <h1 className="text-4xl font-semibold text-center mt-8">Fitness</h1>
+          <h1 className="text-4xl font-semibold text-center mt-8">AirTag</h1>
           <h1 className="text-2xl font-normal text-center mt-6">
-            Let's work out!
+            Will never lose things!
           </h1>
           <div className="mt-5 text-xl text-center">
             <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
               Learn More
             </span>
             <span className="mr-5 text-blue-600 hover:border-b-2 border-blue-600">
-              Try it freely
+              Buy
             </span>
             <img
               //   justify-center can replace mx-auto below
               className="mx-auto"
               loading="lazy"
-              className="Fitness-image"
-              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624300010/Screen_Shot_2021-06-22_at_3.26.12_ipt8f0.png"
+              className="AirTag-image"
+              src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624301991/Screen_Shot_2021-06-22_at_3.59.41_gyg3w9.png"
             ></img>
           </div>
         </div>

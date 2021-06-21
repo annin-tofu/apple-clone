@@ -15,8 +15,10 @@ export default function Home() {
           href="https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg"
         />
       </Head>
-      <Nav />
-      <HomeProducts />
+      <main className="grey-background">
+        <Nav />
+        <HomeProducts />
+      </main>
     </div>
   );
 }
