@@ -67,6 +67,7 @@ function HomeProducts() {
           src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1624135277/Screen_Shot_2021-06-20_at_5.40.56_qbsotx.png"
         ></img>
       </div>
+      <div className="bg-black"></div>
     </div>
   );
 }
