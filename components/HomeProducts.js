@@ -68,7 +68,7 @@ function HomeProducts(props) {
         ></img>
       </div>
       {/* day 2___ for second product under uphone 12 div. it is a basically a same as uphone19. but with black background and white-text*/}
-      <div className="bg-black text-white">
+      <div className="bg-black text-white" data-aos="zoom-in-down">
         {/* double <br></br> to create top margin  */}
         <br></br>
         <br></br>
